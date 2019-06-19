@@ -1,19 +1,26 @@
-# Increase volume
 "pactl set-sink-volume @DEFAULT_SINK@ +5000"
-  XF86AudioRaiseVolume
+XF86AudioRaiseVolume
 
-# Decrease volume
 "pactl set-sink-volume @DEFAULT_SINK@ -5000"
-  XF86AudioLowerVolume
+XF86AudioLowerVolume
 
-# Mute volume
 "pactl set-sink-mute @DEFAULT_SINK@ toggle"
-  XF86AudioMute
+XF86AudioMute
 
-# Increase backlight
 "xbacklight -inc 10"
-  XF86MonBrightnessUp
+XF86MonBrightnessUp
 
-# Decrease backlight
 "xbacklight -dec 10"
-  XF86MonBrightnessDown
+XF86MonBrightnessDown
+
+"playerctl play-pause"
+XF86AudioPlay
+
+"playerctl stop"
+XF86AudioStop
+
+"playerctl next"
+XF86AudioNext
+
+"playerctl previous"
+XF86AudioPrev
