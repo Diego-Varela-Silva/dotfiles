@@ -75,7 +75,7 @@ bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
-bindsym $mod+shift+f fullscreen toggle global
+bindsym $mod+Shift+f fullscreen toggle global
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -172,4 +172,10 @@ bar {
 }
 
 #lock
-bindsym $mod+Shift+l exec "dm-tool lock"
+bindsym $mod+Shift+l exec "i3lock --fuzzy -e"
+
+bindsym $mod+g exec google-chrome-stable
+bindsym $mod+t exec thunar
+bindsym $mod+Shift+s exec stremio
+
+new_window pixel 0
