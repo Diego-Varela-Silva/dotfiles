@@ -201,5 +201,5 @@ bindsym $mod+Shift+s exec stremio
 bindsym $mod+Ctrl+r exec reboot
 bindsym $mod+Ctrl+p exec "shutdown 0"
 
-default_border pixel 0
+default_border pixel 3 
 for_window [title="Android Emulator"] floating enable
