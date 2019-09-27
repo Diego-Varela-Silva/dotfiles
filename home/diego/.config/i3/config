@@ -195,6 +195,7 @@ bar {
 bindsym $mod+Shift+l exec "i3lock --fuzzy -e"
 
 bindsym $mod+g exec google-chrome-stable
+bindsym $mod+y exec google-chrome-stable https://youtube.com
 bindsym $mod+t exec thunar
 bindsym $mod+Shift+s exec stremio
 bindsym $mod+Ctrl+r exec reboot
