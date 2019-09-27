@@ -98,6 +98,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-neofetch | lolcat
+pfetch | lolcat
 
 alias config='git --git-dir=$HOME/Dotfiles/ --work-tree=/'
