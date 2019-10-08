@@ -7,10 +7,10 @@ XF86AudioLowerVolume
 "pactl set-sink-mute @DEFAULT_SINK@ toggle"
 XF86AudioMute
 
-"xbacklight -inc 10"
+"xbacklight -inc 10 && notify-send -t 500 $(xbacklight)%"
 XF86MonBrightnessUp
 
-"xbacklight -dec 10"
+"xbacklight -dec 10 && notify-send -t 500 $(xbacklight)%"
 XF86MonBrightnessDown
 
 "playerctl play-pause"
