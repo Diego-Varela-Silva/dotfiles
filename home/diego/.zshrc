@@ -98,6 +98,9 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 pfetch | lolcat
 
 alias config='git --git-dir=$HOME/Dotfiles/ --work-tree=/'
+alias xcp="xclip -sel clip"
