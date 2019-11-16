@@ -98,9 +98,15 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias config='git --git-dir=$HOME/Dotfiles/ --work-tree=/'
+alias xcp="xclip -sel clip"
+
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+. $HOME/.asdf/plugins/java/set-java-home.sh
+
+export FLUTTER_ROOT=$(asdf where flutter)
+
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 pfetch | lolcat
-
-alias config='git --git-dir=$HOME/Dotfiles/ --work-tree=/'
-alias xcp="xclip -sel clip"
