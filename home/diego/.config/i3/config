@@ -30,8 +30,8 @@ font pango:DejaVu Sans Mono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xfce4-terminal
-bindsym $mod+KP_Enter exec xfce4-terminal
+bindsym $mod+Return exec alacritty
+bindsym $mod+KP_Enter exec alacritty
 
 # kill focused window
 bindsym $mod+q kill
@@ -194,8 +194,8 @@ bar {
 #lock
 bindsym $mod+l exec "i3lock --fuzzy -e"
 
-bindsym $mod+g exec google-chrome-stable
-bindsym $mod+y exec google-chrome-stable https://youtube.com.br
+bindsym $mod+g exec brave
+bindsym $mod+y exec brave https://youtube.com.br
 bindsym $mod+t exec thunar
 bindsym $mod+Shift+s exec stremio
 bindsym $mod+Ctrl+r exec reboot

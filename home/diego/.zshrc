@@ -110,3 +110,4 @@ export FLUTTER_ROOT=$(asdf where flutter)
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 pfetch | lolcat
+
