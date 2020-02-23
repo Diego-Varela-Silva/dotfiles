@@ -106,6 +106,8 @@ alias xcp="xclip -sel clip"
 . $HOME/.asdf/plugins/java/set-java-home.sh
 
 export FLUTTER_ROOT=$(asdf where flutter)
+export PATH="$PATH":"$FLUTTER_ROOT/.pub-cache/bin"
+export PATH="$PATH":"$FLUTTER_ROOT/bin/cache/dart-sdk/bin/"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
